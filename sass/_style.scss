@@ -15,12 +15,20 @@ h1{
 .btn-default-uno{
 	@include boton();
 	border:none;
-	margin-top:30%;
+	padding: 6px 100px;
+	margin-top: 15%;
+	
 }
 
 .btn-default-dos{
 	@include boton();
 	border:none;
-	margin-top:30%;
+	padding: 6px 70px;
+	margin-top: 5%;
+}
+
+h5{
+	color: $color-white;
+	margin-top: 5%;
 }
 

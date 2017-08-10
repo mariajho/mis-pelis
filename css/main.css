@@ -5821,12 +5821,18 @@ h1 {
   background-color: white;
   color: #8e1818;
   border: none;
-  margin-top: 30%; }
+  padding: 6px 100px;
+  margin-top: 15%; }
 
 .btn-default-dos {
   background-color: white;
   color: #8e1818;
   border: none;
-  margin-top: 30%; }
+  padding: 6px 70px;
+  margin-top: 5%; }
+
+h5 {
+  color: white;
+  margin-top: 5%; }
 
 /*# sourceMappingURL=main.css.map */
