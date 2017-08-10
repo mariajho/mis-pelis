@@ -1,0 +1,26 @@
+body{
+	background-color: $background-red;
+}
+
+h1{
+	color: $color-white;
+	font-family: 'Anton', sans-serif;
+	font-size: 60px;
+}
+
+#primera-pelis{
+	margin-top:30%;
+}
+
+.btn-default-uno{
+	@include boton();
+	border:none;
+	margin-top:30%;
+}
+
+.btn-default-dos{
+	@include boton();
+	border:none;
+	margin-top:30%;
+}
+
