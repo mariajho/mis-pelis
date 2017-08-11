@@ -2,3 +2,8 @@
 	background-color:$background-white;
 	color: $color-red;
 }
+
+@mixin mini-titulo{
+	color: $color-red;
+}
+

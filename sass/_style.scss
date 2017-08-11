@@ -1,4 +1,10 @@
-body{
+/*seccion mis pelis*/
+*{
+	padding:0;
+	margin:0;
+}
+
+#uno{
 	background-color: $background-red;
 }
 
@@ -10,6 +16,7 @@ h1{
 
 #primera-pelis{
 	margin-top:30%;
+	background-color: $background-red;
 }
 
 .btn-default-uno{
@@ -30,5 +37,73 @@ h1{
 h5{
 	color: $color-white;
 	margin-top: 5%;
+	font-family: 'Oswald', sans-serif;
 }
 
+
+/*seccion create account*/
+#dos{
+	background-color: $background-gray;
+}
+
+.navbar-toggle {
+  float:right;
+}
+ul{
+  background-color: $background-white;
+}
+
+li:hover{
+  background-color: #E8A511;
+}
+
+#titulo-create{
+  color: $background-white;
+}
+
+#create-datos{
+  background-color: $background-gray;
+}
+
+.mini-titulo{
+	@include mini-titulo();
+	margin-left: 5%;
+	font-family: 'Oswald', sans-serif;
+}
+
+.ingresar-account{
+	margin-left: 5%;
+	padding: 6px 45px;
+	border: none;
+}
+
+.btn-default-2{
+	
+	margin-top: 40%;
+	color: $color-white;
+	padding: 5px 70px;
+	background-color: $background-black;
+}
+
+/*seccion movies*/
+.navbar-toggle {
+  float:right;
+}
+ul{
+  background-color: $background-white;
+}
+
+li:hover{
+  background-color: #E8A511;
+}
+
+#descripcion{
+	text-align:justify;
+	color:$color-gray;
+}
+
+.titulos-actor{
+	color: $color-red;
+	margin-left: -50%;
+
+}
