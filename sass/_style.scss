@@ -46,9 +46,17 @@ h5{
 	background-color: $background-gray;
 }
 
-.navbar-toggle {
-  float:right;
+.navbar-static-top{
+	height:80px;
 }
+
+.pull-left{
+	margin-top: -20%;
+	border:none;
+	position:fixed;
+}
+
+
 ul{
   background-color: $background-white;
 }
@@ -58,7 +66,11 @@ li:hover{
 }
 
 #titulo-create{
-  color: $background-white;
+  color:$color-gray;
+  margin-top:45px;
+  margin-right: 10%;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
 }
 
 #create-datos{
@@ -67,8 +79,12 @@ li:hover{
 
 .mini-titulo{
 	@include mini-titulo();
-	margin-left: 5%;
+	padding-left: 20px;
 	font-family: 'Oswald', sans-serif;
+}
+
+#titulo-create{
+	text-align: center;
 }
 
 .ingresar-account{
@@ -83,6 +99,12 @@ li:hover{
 	color: $color-white;
 	padding: 5px 70px;
 	background-color: $background-black;
+}
+
+.fa-search{
+	color:$color-white;
+	padding-left:277px;
+	margin-top:5%;
 }
 
 /*seccion movies*/

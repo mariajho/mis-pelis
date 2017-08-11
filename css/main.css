@@ -5846,8 +5846,13 @@ h5 {
 #dos {
   background-color: #e2e2e2; }
 
-.navbar-toggle {
-  float: right; }
+.navbar-static-top {
+  height: 80px; }
+
+.pull-left {
+  margin-top: -20%;
+  border: none;
+  position: fixed; }
 
 ul {
   background-color: white; }
@@ -5856,15 +5861,22 @@ li:hover {
   background-color: #E8A511; }
 
 #titulo-create {
-  color: white; }
+  color: #8c8989;
+  margin-top: 45px;
+  margin-right: 10%;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif; }
 
 #create-datos {
   background-color: #e2e2e2; }
 
 .mini-titulo {
   color: #8e1818;
-  margin-left: 5%;
+  padding-left: 20px;
   font-family: 'Oswald', sans-serif; }
+
+#titulo-create {
+  text-align: center; }
 
 .ingresar-account {
   margin-left: 5%;
@@ -5876,6 +5888,11 @@ li:hover {
   color: white;
   padding: 5px 70px;
   background-color: #2b2c30; }
+
+.fa-search {
+  color: white;
+  padding-left: 277px;
+  margin-top: 5%; }
 
 /*seccion movies*/
 .navbar-toggle {
