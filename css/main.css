@@ -5895,6 +5895,9 @@ li:hover {
   margin-top: 5%; }
 
 /*seccion movies*/
+#tres {
+  background-color: white; }
+
 .navbar-toggle {
   float: right; }
 
@@ -5911,5 +5914,50 @@ li:hover {
 .titulos-actor {
   color: #8e1818;
   margin-left: -50%; }
+
+.btn-default-tres {
+  color: #8c8989;
+  font-size: 18px; }
+
+.btn {
+  background-color: #f2efef;
+  padding: 8px 110px; }
+
+.fa-angle-down {
+  color: #2b2c30;
+  font-weight: bold;
+  margin-left: 100%;
+  font-size: 24px; }
+
+/*seccion actor*/
+#actor {
+  background-color: #c14748;
+  height: 40vh;
+  margin-top: -6%; }
+
+#john {
+  color: white;
+  margin-top: 35%;
+  font-family: 'Anton', sans-serif; }
+
+#tipos-pelis {
+  background-color: white; }
+
+.estilos-pelis {
+  color: #8c8989;
+  font-family: 'Oswald', sans-serif; }
+
+tr {
+  font-size: 11px;
+  color: #8c8989;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif; }
+
+.table {
+  margin-top: 3%;
+  padding: 10px;
+  line-height: 2;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif; }
 
 /*# sourceMappingURL=main.css.map */
