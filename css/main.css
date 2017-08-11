@@ -5883,11 +5883,16 @@ li:hover {
   padding: 6px 45px;
   border: none; }
 
-.btn-default-2 {
-  margin-top: 40%;
+.btn-1 {
+  margin-top: 35%;
+  margin-right: 7%;
   color: white;
   padding: 5px 70px;
-  background-color: #2b2c30; }
+  background-color: #2b2c30;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px; }
 
 .fa-search {
   color: white;
@@ -5959,5 +5964,17 @@ tr {
   line-height: 2;
   text-decoration: none;
   font-family: 'Oswald', sans-serif; }
+
+/*profile*/
+.img-responsive {
+  width: 20%;
+  border-radius: 7px solid gray;
+  border: 10px; }
+
+#my-favorites {
+  color: white;
+  background-color: #c14748;
+  padding-left: 2%;
+  height: 10vh; }
 
 /*# sourceMappingURL=main.css.map */

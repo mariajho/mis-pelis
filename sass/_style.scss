@@ -93,12 +93,16 @@ li:hover{
 	border: none;
 }
 
-.btn-default-2{
-	
-	margin-top: 40%;
+.btn-1{
+	margin-top: 35%;
+	margin-right: 7%;
 	color: $color-white;
 	padding: 5px 70px;
 	background-color: $background-black;
+	text-align:center;
+	border:none;
+	border-radius: 6px;
+	font-size: 16px;
 }
 
 .fa-search{
@@ -164,6 +168,7 @@ li:hover{
 	color:$color-white;
 	margin-top: 35%;
 	font-family: 'Anton', sans-serif;
+
 }
 
 #tipos-pelis{
@@ -189,4 +194,19 @@ tr{
 	line-height: 2;
 	text-decoration:none;
 	font-family: 'Oswald', sans-serif;
+}
+
+/*profile*/
+.img-responsive{
+	width:20%;
+	border-radius: 7px solid gray;
+	border: 10px;
+}
+
+#my-favorites{
+	color: $color-white;
+	background-color:$background-red;
+	padding-left: 2%;
+	height:10vh;
+
 }
